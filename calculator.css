@@ -1,0 +1,75 @@
+body {
+  background-color: #555555;
+}
+
+.base {
+  position: absolute;
+  background-color: #0003FF;
+  left: 40%;
+  top: 4%;
+  width: 26em;
+  height: 32em;
+  border: solid #0099CC 1em;
+  border-bottom-color: #000344;
+  border-right-color: #000344;
+  border-radius: 10px;
+}
+
+.screen {
+  position: relative;
+  left: 10%;
+  top: 4%;
+  background-color: black;
+  width: 9em;
+  height: 2em;
+  color: lime;
+  font-size: 36px;
+  text-align: right;
+  padding: 0.1em;
+  font-family: Sans-serif;
+  border: solid #0099CC 0.13em;
+  border-top-color: #000344;
+  border-left-color: #000344;
+}
+
+.current {
+  font-size: 16px;
+}
+
+.btn {
+  background-color: gray;
+  position: relative;
+  left: -0.2em;
+  height: 1.5em;
+  width: 2em;
+  margin: .3em;
+  font-size: 36px;
+}
+
+.clr {
+  background-color: red;
+  color: white;
+  border-color: #FFAAAA;
+  border-bottom-color: #443000;
+  border-right-color: #443000;
+}
+
+.grid {
+  position: relative;
+  top: 5%;
+  left: 5%;
+}
+
+.plus {
+  height: 3.6em;
+  position: absolute;
+  left: 7.93em;
+}
+
+.eq {
+  background-color: green;
+  color: white;
+  border-color: #AAFFAA;
+  border-bottom-color: #004400;
+  border-right-color: #004400;
+}
